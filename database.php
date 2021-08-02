@@ -1,14 +1,15 @@
 <?php
 $host = 'localhost';
 $dbname = 'hospital';
-$username = 'root'
+$username = 'root';
 $password = '';
 
 
 try {
     $db = new PDO("mysql:host=$host;dbname=$dbname",$username,$password);
+    $db->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
 }
-catch(PDOExcecption $e){
+catch(PDOException $e){
     echo $e->getMessage();
 }
 ?>
