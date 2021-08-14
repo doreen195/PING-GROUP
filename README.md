@@ -32,6 +32,8 @@ III.Patient - Will be able to view their data, their payment
 
 ###### Technical Requirements
 
+HTML
+
 PHP
 
 MYSQL
