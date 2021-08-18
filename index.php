@@ -33,15 +33,17 @@
                         <input type="password" class="form-control" id="password" name="password" value="password"placeholder="password" required>
                     </div>	
                     <label class="radio-inline">
-                      <input type="radio" name="loginType" value="admin">Administrator
+                      <input type="radio" name="loginType" value="admin">Nurses
                     </label>
                     <label class="radio-inline">
-                      <input type="radio" name="loginType" value="doctor">Doctor
+                      <input type="radio" name="loginType" value="doctor">Doctors
                     </label>
                     <label class="radio-inline">
-                      <input type="radio" name="loginType" value="patient">Patient
+                      <input type="radio" name="loginType" value="patient">Medical lab technicians
                     </label>
-                    
+                    <label class="radio-inline">
+                      <input type="radio" name="loginType" value="patient">Other health care personnels
+                    </label>
                     <div style="margin-top:10px" class="form-group">                               
                         <div class="col-sm-12 controls">
                           <input type="submit" name="login" value="Login" class="btn btn-info">						  
@@ -84,8 +86,8 @@
 <input type="submit" align="center" value=" pharmacist ">
 </form>
 </td></tr><tr><td>
-<form action="laboratorist.php" align="center">
-<input type="submit" align="center" value=" laboratorist ">
+<form action="medical lab technician.php" align="center">
+<input type="submit" align="center" value=" medical lab technician ">
 </form>
 </td>
 <tr>
